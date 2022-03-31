@@ -1,0 +1,93 @@
+.conteudoPrincipal {
+    border-top: 1px solid #94B3FD;
+    padding: 3em;
+}
+
+.conteudoPrincipalEscrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.conteudoPrincipalEscritoEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 70px;
+}
+
+
+.conteudoPrincipalEscritoTitulo {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 64px;
+    color: #2D4263;
+}    
+
+.conteudoPrincipalSubTitulo {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 36px;
+    color: blueviolet;
+}
+
+.conteudoPrincipalBotao {
+    width: 150px ;
+    height: 70px;
+    border: transparent;
+    box-shadow: 2px 3px 4px #2D4263;
+    border-radius: 20px;
+    color: #ffff;
+    opacity: 1;
+    font-size: 30px;
+    background: linear-gradient(45deg, #94B3FD, #2D4263);
+    cursor: pointer;
+    transition-duration: all 3s;
+}
+
+.conteudoPrincipalBotao:hover {
+    opacity: 95%;
+    background: cadetblue;
+}
+
+.conteudoPrincipalBotao a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+}
+
+
+.conteudoPrincipalImagem {
+    width: 70%;
+    border-radius: 100px;
+    box-shadow: 3px 4px 4px blueviolet;
+}    
+
+.conteudoSecundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5em;
+}
+
+.conteudoSecundarioTitulo {
+    border-top: 2px solid #94B3FD;
+    padding: 3em;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    color: #2D4263;
+}
+
+.conteudoSecundarioItem {
+    margin-bottom: 24px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    color: blueviolet;
+}

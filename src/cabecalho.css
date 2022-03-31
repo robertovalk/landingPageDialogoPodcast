@@ -1,0 +1,35 @@
+.cabecalho {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+.cabecalhoImagem {
+    width: 8%;
+    border-radius: 100px;
+    box-shadow: 3px 3px 4px #2D4263;
+
+}
+
+.cabecalhoNav {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.cabecalhoNavItem {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+    color: #2D4263;
+    transition: all 0,8s;
+}
+
+.cabecalhoNavItem:hover {
+    color: #C84B31;
+}
+
+.cabecalhoNavItem:active {
+    color: #94B3FD;
+}

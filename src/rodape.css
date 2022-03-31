@@ -1,0 +1,8 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
+    border-top: 1px solid #94B3FD;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+}
